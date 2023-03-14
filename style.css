@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body{
+    background-color: #cdbdae;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+h1{
+    color: #ffffff;
+}
+
+#calculator{
+    max-width: 360px;
+    background-color: #7a5b3e;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 10px 20px white
+}
+
+#display{
+    width:100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 25px;
+    border-radius: 12px;
+    background: #fa4b00;
+    color: #ffffff;
+    border: none;
+    box-sizing: border-box;
+}
+
+.equal{
+    width: calc(50% - 10px);
+}
+
+button{
+    width: calc(25% - 10px);
+    height: 30px;
+    font-size: 18px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: #cdbdae;
+    color: black;
+    border-radius: 12px;
+    box-shadow: -1px 1px 10px #000000;
+}
+
+#ac{
+    background-color: #fa4b00;
+    color: #fafafa;
+}
+
+.operator{
+    background-color: #cdbdae;
+    color: #ffffff;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    margin: 10vh;
+    background-color: rgb(78, 200, 12);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
